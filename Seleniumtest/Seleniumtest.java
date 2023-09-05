@@ -19,7 +19,7 @@ public class Seleniumtest {
     public static void main(String[] args) {
 
         FirefoxDriver driver = new FirefoxDriver();
-        driver.navigate().to("https://www.americanselfstorageok.com/201-w-memorial-rd-oklahoma-city-ok-73114");
+        driver.navigate().to("https://www.google.com/");
         System.out.println("Page source: " + driver.getPageSource());
         driver.close();
 
